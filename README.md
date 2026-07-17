@@ -10,7 +10,7 @@ I build the infrastructure, tools, and product surfaces that turn model capabili
 
 </div>
 
-My work sits across two layers that are usually treated separately. I build agent runtimes with durable state, typed provider boundaries, replayable events, permission controls, process execution, delivery receipts, and recovery. I also build the products on top: voice systems, commerce, enterprise assistants, image workflows, and the interfaces that make autonomous behavior understandable and trustworthy.
+My work sits across two layers that are usually treated separately. I build agent runtimes with durable state, typed provider boundaries, replayable events, permission controls, process execution, delivery receipts, and recovery. I also build the products on top: voice systems, commerce, enterprise assistants, image workflows, and the interfaces that make autonomous behavior understandable, trustworthy, and delightful to use.
 
 Right now, my main project is [goldengoose](https://goldengoose.ashray.xyz), a native desktop environment for running teams of coding agents in parallel. I use it every day to build itself and the rest of the projects below. I extracted its runtime lessons into [Gooselake](https://github.com/amxv/gooselake), a headless control plane for agent applications.
 
@@ -24,7 +24,7 @@ Right now, my main project is [goldengoose](https://goldengoose.ashray.xyz), a n
 | Product engineering | TypeScript, React, Next.js, PostgreSQL, SQLite, Drizzle, object storage, typed contracts, observability, and browser-level verification |
 | Systems engineering | Rust, Tauri, Axum, bounded concurrency, lifecycle invariants, idempotency, delivery semantics, and failure recovery |
 
-I run non-trivial work through research, planning, implementation, independent review, and browser verification. Git worktrees isolate parallel agents; exact commit ranges are the handoff; compilers, tests, reviewers, and real interaction decide whether the work is done.
+My default is to make important boundaries explicit: one owner for state, typed contracts between layers, observable failures, and a verifier at the end of every autonomous loop. That discipline is what lets me move quickly without treating agent output as ground truth.
 
 ## Open source
 
