@@ -24,7 +24,7 @@ Right now, my main project is [goldengoose](https://goldengoose.ashray.xyz), a n
 | Product engineering | TypeScript, React, Next.js, PostgreSQL, SQLite, Drizzle, object storage, typed contracts, observability, and browser-level verification |
 | Systems engineering | Rust, Tauri, Axum, bounded concurrency, lifecycle invariants, idempotency, delivery semantics, and failure recovery |
 
-My default is to make important boundaries explicit: one owner for state, typed contracts between layers, observable failures, and a verifier at the end of every autonomous loop. That discipline is what lets me move quickly without treating agent output as ground truth.
+The systems I trust make their important boundaries explicit: one owner for state, typed contracts between layers, observable failures, and a verifier at the end of every autonomous loop. That discipline is what lets me move quickly without treating agent output as ground truth.
 
 ## Open source
 
