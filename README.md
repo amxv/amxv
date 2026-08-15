@@ -33,10 +33,6 @@ The systems I trust make their important boundaries explicit: one owner for stat
 - **[Gooselake](https://github.com/amxv/gooselake)** · `Rust` · [docs](https://gooselake.ashray.xyz): A headless runtime for Codex, Claude, and ACP with durable sessions, replayable SSE, background processes, worktree execution, recovery, and receipt-backed team messaging.
 - **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): A remote coding MCP server that gives ChatGPT a real Linux workspace through the three Codex-native tools, with separate operator and agent binaries enforcing the permission boundary.
 - **[Agentbox](https://github.com/amxv/agentbox)** · `Go` `TypeScript` · [app](https://agentbox.ashray.xyz): A shared inbox where remote agents connect over MCP and local agents use a Go CLI, backed by Postgres and R2, with a Next.js inbox UI and a Raycast extension for macOS.
-- **[mcp-code](https://github.com/amxv/mcp-code)** · `Go`: A small stateless MCP server that gives remote MCP clients like ChatGPT GitHub tools for repository discovery, code search, reading, issues, pull requests, and branches.
-- **[Terminal MCP](https://github.com/amxv/terminal-mcp)** · `TypeScript` `Bun`: A zero-dependency MCP client built when Codex had no native MCP support, with a full developer binary and a separate locked-down binary that can only call approved tools.
-- **[MCP Manager](https://github.com/amxv/mcp-manager)** · `TypeScript` · [app](https://mcp-manager.ashray.xyz): A fully client-side GUI for configuring Claude Desktop MCP servers without sending the API tokens in its config file to a backend.
-- **[adm](https://github.com/amxv/adm)** · `Go` `SQLite` · archived: The local, poll-free agent messaging CLI that explored at-least-once delivery, passive hook injection, direct messages, broadcasts, and soft file claims before those ideas moved into goldengoose.
 
 ### Agent-first developer tools
 
