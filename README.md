@@ -67,4 +67,4 @@ The systems I trust make their important boundaries explicit: one owner for stat
 - [The answer is almost always a CLI](https://ashray.xyz/blog/the-answer-is-almost-always-a-cli): Where CLI priors, context cost, self-documentation, and MCP's stateful identity lead to different tool choices.
 - [Agents don't pay the Rust tax](https://ashray.xyz/blog/agents-dont-pay-the-rust-tax): Why Rust's compile-fix loop becomes a correctness subsidy when agents write the code and durable state is on the line.
 
-I am based in Bangalore, India, and open to staff engineer and founding engineer roles, plus a small amount of focused client work. If the difficult part of your product lives between the model, the runtime, and the person using it, [send me a note](mailto:a@ashray.xyz).
+If the difficult part of your product lives between the model, the runtime, and the person using it, [send me a note](mailto:a@ashray.xyz).
