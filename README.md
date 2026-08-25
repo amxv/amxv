@@ -36,6 +36,7 @@ The systems I trust make their important boundaries explicit: one owner for stat
 
 ### Agent-first developer tools
 
+- **[Denju](https://github.com/amxv/denju)** · `Rust` · [docs](https://denju.ashray.xyz): An open registry and synchronization system for Agent Skills: discover and subscribe publicly, keep private skills synced across devices, bundle them into packs, and keep team skill sets current while projecting one managed copy into Codex and Claude Code.
 - **[agentscript](https://github.com/amxv/agentscript)** · `Go` · [docs](https://agentscript.ashray.xyz): A CLI that normalizes Claude Code and Codex JSONL transcripts into stably addressed blocks, then exports small, context-efficient Markdown handoffs instead of raw transcript noise.
 - **[webctx](https://github.com/amxv/webctx)** · `Go` · [docs](https://webctx.ashray.xyz): A web search and page scraping CLI that queries Brave, Tavily, and Exa concurrently, merges and ranks their results, extracts pages into context-efficient Markdown, and maps sites into URL inventories.
 - **[cf-cli](https://github.com/amxv/cf-cli)** · `Go` · [docs](https://cf.ashray.xyz): An agent-first Cloudflare operations CLI for DNS, recent Workers logs, R2, account profiles, Wrangler switching, and minting narrowly scoped tokens for API operations it does not wrap yet.
