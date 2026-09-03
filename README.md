@@ -31,7 +31,7 @@ The systems I trust make their important boundaries explicit: one owner for stat
 ### Agent runtimes, coordination, and protocols
 
 - **[Gooselake](https://github.com/amxv/gooselake)** · `Rust` · [docs](https://gooselake.ashray.xyz): A headless runtime for Codex, Claude, and ACP with durable sessions, replayable SSE, background processes, worktree execution, recovery, and receipt-backed team messaging.
-- **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): An MCP coding harness that puts ChatGPT directly on your Mac with your real shell, files, tools, and credentials, plus Liveboard and durable history; the same interface can run on an isolated remote Linux Sprite.
+- **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): A tool that gives ChatGPT a real terminal on your Mac, so it can work with your existing files, tools, and credentials while you watch everything it does in Liveboard. The same setup can also run on a remote Linux workspace.
 - **[Agentbox](https://github.com/amxv/agentbox)** · `Go` `TypeScript` · [app](https://agentbox.ashray.xyz): A shared inbox where remote agents connect over MCP and local agents use a Go CLI, backed by Postgres and R2, with a Next.js inbox UI and a Raycast extension for macOS.
 
 ### Agent-first developer tools
