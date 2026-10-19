@@ -31,11 +31,12 @@ The systems I trust make their important boundaries explicit: one owner for stat
 ### Agent runtimes, coordination, and protocols
 
 - **[Gooselake](https://github.com/amxv/gooselake)** · `Rust` · [docs](https://gooselake.ashray.xyz): A headless runtime for Codex, Claude, and ACP with durable sessions, replayable SSE, background processes, worktree execution, recovery, and receipt-backed team messaging.
-- **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): A tool that gives ChatGPT a real terminal on your Mac, so it can work with your existing files, tools, and credentials while you watch everything it does in Liveboard. The same setup can also run on a remote Linux workspace.
+- **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): A cross-platform terminal bridge that gives ChatGPT access to your real macOS, Windows, or Linux development environment, with secure tunneling, live command and file-change observability in Liveboard, and native menu bar or system tray controls. It also supports remote Linux workspaces.
 - **[Agentbox](https://github.com/amxv/agentbox)** · `Go` `TypeScript` · [app](https://agentbox.ashray.xyz): A shared inbox where remote agents connect over MCP and local agents use a Go CLI, backed by Postgres and R2, with a Next.js inbox UI and a Raycast extension for macOS.
 
 ### Agent-first developer tools
 
+- **[Noria](https://github.com/amxv/noria)** · `Go` `Swift` · [docs](https://noria.ashray.xyz): A smart local proxy for Codex and Claude Code that routes sessions across multiple accounts using usage limits and reset times, keeps conversations on the same account for prompt-cache reuse, and safely fails over to another eligible account of the same provider.
 - **[Denju](https://github.com/amxv/denju)** · `Rust` · [docs](https://denju.ashray.xyz): An open registry and synchronization system for Agent Skills: discover and subscribe publicly, keep private skills synced across devices, bundle them into packs, and keep team skill sets current while projecting one managed copy into Codex and Claude Code.
 - **[agentscript](https://github.com/amxv/agentscript)** · `Go` · [docs](https://agentscript.ashray.xyz): A CLI that turns Claude Code and Codex transcripts into clean, searchable handoffs, so agents can carry forward the useful context without passing around the whole session.
 - **[webctx](https://github.com/amxv/webctx)** · `Go` · [docs](https://webctx.ashray.xyz): A web search and page scraping CLI that queries Brave, Tavily, and Exa concurrently, merges and ranks their results, extracts pages into context-efficient Markdown, and maps sites into URL inventories.
