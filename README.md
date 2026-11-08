@@ -33,6 +33,7 @@ The systems I trust make their important boundaries explicit: one owner for stat
 - **[Gooselake](https://github.com/amxv/gooselake)** · `Rust` · [docs](https://gooselake.ashray.xyz): A headless runtime for Codex, Claude, and ACP with durable sessions, replayable SSE, background processes, worktree execution, recovery, and receipt-backed team messaging.
 - **[Zodex](https://github.com/amxv/zodex)** · `Rust` · [docs](https://zodex.ashray.xyz): A cross-platform terminal bridge that gives ChatGPT access to your real macOS, Windows, or Linux development environment, with secure tunneling, live command and file-change observability in Liveboard, and native menu bar or system tray controls. It also supports remote Linux workspaces.
 - **[Agentbox](https://github.com/amxv/agentbox)** · `Go` `TypeScript` · [app](https://agentbox.ashray.xyz): A shared inbox where remote agents connect over MCP and local agents use a Go CLI, backed by Postgres and R2, with a Next.js inbox UI and a Raycast extension for macOS.
+- **[Slingring](https://github.com/amxv/slingring)** · `Rust` `MCP` `CLI` · [docs](https://slingring.ashray.xyz): Lets my personal ChatGPT dot and local coding agents delegate tasks to my ChatGPT account through an isolated headless Chrome session, then steer those tasks with follow-ups to the same conversation URL. It uses the ChatGPT subscription's separate allowance rather than Codex usage.
 
 ### Agent-first developer tools
 
